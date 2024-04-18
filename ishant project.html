@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>6269e745e97749cabf88b02dcfbe7184</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="210" id="yfOsoNIoYv1b">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler, OneHotEncoder</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.compose <span class="im">import</span> ColumnTransformer</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.pipeline <span class="im">import</span> Pipeline</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression, Lasso, Ridge, ElasticNet</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error, r2_score</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neural_network <span class="im">import</span> MLPRegressor</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pickle</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.sparse <span class="im">import</span> csr_matrix</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="211" id="bmacD6hjZ_LX">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the dataset</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(<span class="st">&quot;/content/HouseListings-Top45Cities-10292023-kaggle.csv&quot;</span>, encoding<span class="op">=</span><span class="st">&#39;ISO-8859-1&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="166"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="_ViNyuyzbDmu" data-outputId="5a29811a-e5d9-4f7a-90b4-a1accac204c6">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># EDA</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.head())  <span class="co"># Display the first few rows of the dataset</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>      City      Price                  Address  Number_Beds  Number_Baths  \
+0  Toronto   779900.0    #318 -20 SOUTHPORT ST            3             2   
+1  Toronto   799999.0    #818 -60 SOUTHPORT ST            3             1   
+2  Toronto   799900.0  #714 -859 THE QUEENSWAY            2             2   
+3  Toronto  1200000.0         275 MORTIMER AVE            4             2   
+4  Toronto   668800.0    #420 -388 RICHMOND ST            1             1   
+
+  Province  Population  Latitude  Longitude  Median_Family_Income  
+0  Ontario     5647656   43.7417   -79.3733               97000.0  
+1  Ontario     5647656   43.7417   -79.3733               97000.0  
+2  Ontario     5647656   43.7417   -79.3733               97000.0  
+3  Ontario     5647656   43.7417   -79.3733               97000.0  
+4  Ontario     5647656   43.7417   -79.3733               97000.0  
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="167"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="RrjAVupebH5N" data-outputId="11ee42ef-08f9-4937-e3ff-d60c6b2b71a1">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.info())  <span class="co"># Display information about the dataset</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 35768 entries, 0 to 35767
+Data columns (total 10 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   City                  35768 non-null  object 
+ 1   Price                 35768 non-null  float64
+ 2   Address               35768 non-null  object 
+ 3   Number_Beds           35768 non-null  int64  
+ 4   Number_Baths          35768 non-null  int64  
+ 5   Province              35768 non-null  object 
+ 6   Population            35768 non-null  int64  
+ 7   Latitude              35768 non-null  float64
+ 8   Longitude             35768 non-null  float64
+ 9   Median_Family_Income  35768 non-null  float64
+dtypes: float64(4), int64(3), object(3)
+memory usage: 2.7+ MB
+None
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="168"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="EVb9kcFfbKLp" data-outputId="85968d56-75a6-43a1-dc7e-141cc10bbe91">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.describe())  <span class="co"># Display summary statistics of numerical features</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              Price   Number_Beds  Number_Baths    Population      Latitude  \
+count  3.576800e+04  35768.000000  35768.000000  3.576800e+04  35768.000000   
+mean   9.432963e+05      3.283661      2.532403  6.360151e+05     47.446556   
+std    1.020110e+06      1.730654      1.371910  1.120016e+06      3.333855   
+min    2.150000e+04      0.000000      0.000000  6.338200e+04     42.283300   
+25%    4.599000e+05      2.000000      2.000000  1.091670e+05     43.866700   
+50%    6.990000e+05      3.000000      2.000000  2.424600e+05     49.025000   
+75%    1.095000e+06      4.000000      3.000000  5.228880e+05     49.888100   
+max    3.700000e+07    109.000000     59.000000  5.647656e+06     53.916900   
+
+          Longitude  Median_Family_Income  
+count  35768.000000          35768.000000  
+mean     -98.421636          89643.103416  
+std       22.280935          12132.353510  
+min     -123.936400          62400.000000  
+25%     -122.316700          82000.000000  
+50%     -104.606700          89000.000000  
+75%      -79.866700          97000.000000  
+max       63.100500         133000.000000  
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="169"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Z_JVYXWrbQUu" data-outputId="f6d839dc-c592-4b8d-ae4b-c25ca606fd82">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(data.isnull().<span class="bu">sum</span>())  <span class="co"># Check for missing values</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>City                    0
+Price                   0
+Address                 0
+Number_Beds             0
+Number_Baths            0
+Province                0
+Population              0
+Latitude                0
+Longitude               0
+Median_Family_Income    0
+dtype: int64
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="170"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:445}"
+id="BJlbyOgbbVHS" data-outputId="623528c7-8d41-4740-e0e7-9aacb9b09763">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for outliers</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>data[[<span class="st">&#39;Price&#39;</span>, <span class="st">&#39;Number_Beds&#39;</span>, <span class="st">&#39;Number_Baths&#39;</span>, <span class="st">&#39;Population&#39;</span>, <span class="st">&#39;Median_Family_Income&#39;</span>]])</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_9e40fec9bbfa4550b7b7f7722211d011/f7a23e2918088007193241a76fa164eeecb66b16.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="171"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="GYAHvNZ_3HT_" data-outputId="baf7e2d3-c820-43ef-9646-a0e33fcd11fc">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for infinity or very large values</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>large_values_cols <span class="op">=</span> []</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> data.columns:</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> data[col].dtype <span class="kw">in</span> [np.float64, np.int64]:</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (data[col].<span class="bu">abs</span>() <span class="op">&gt;</span> <span class="fl">1e10</span>).<span class="bu">any</span>():</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>            large_values_cols.append(col)</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Columns with very large values (&gt;1e10):&quot;</span>, large_values_cols)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Columns with very large values (&gt;1e10): []
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="172" id="ZGRbxKIP2Ogq">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature Engineering</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Price_per_Bedroom&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;Price&#39;</span>] <span class="op">/</span> data[<span class="st">&#39;Number_Beds&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="173" id="rxSPnIk5BdkN">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace very large values in &#39;Price_per_Bedroom&#39; with the median value</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>median_price_per_bedroom <span class="op">=</span> data[<span class="st">&#39;Price_per_Bedroom&#39;</span>].median()</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Price_per_Bedroom&#39;</span>] <span class="op">=</span> data[<span class="st">&#39;Price_per_Bedroom&#39;</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: median_price_per_bedroom <span class="cf">if</span> x <span class="op">&gt;</span> <span class="fl">1e10</span> <span class="cf">else</span> x)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="174" id="-3W95uFNbnGe">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define categorical and numerical features</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>categorical_features <span class="op">=</span> [<span class="st">&#39;City&#39;</span>, <span class="st">&#39;Province&#39;</span>]</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>numerical_features <span class="op">=</span> [<span class="st">&#39;Price&#39;</span>, <span class="st">&#39;Number_Beds&#39;</span>, <span class="st">&#39;Number_Baths&#39;</span>, <span class="st">&#39;Population&#39;</span>, <span class="st">&#39;Median_Family_Income&#39;</span>, <span class="st">&#39;Price_per_Bedroom&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="175" id="N2aMX6KR6N7a">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Encode categorical variables</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>categorical_transformer <span class="op">=</span> OneHotEncoder(handle_unknown<span class="op">=</span><span class="st">&#39;ignore&#39;</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Scale numerical features</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>numerical_transformer <span class="op">=</span> StandardScaler()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="176" id="amiPtOGtynOF">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define preprocessor</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>preprocessor <span class="op">=</span> ColumnTransformer(</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    transformers<span class="op">=</span>[</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&#39;cat&#39;</span>, categorical_transformer, categorical_features),</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>        (<span class="st">&#39;num&#39;</span>, numerical_transformer, numerical_features)</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    ])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="177" id="LedVRyrdyr76">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply scaling to the &#39;Price_per_Bedroom&#39; column</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>price_per_bedroom_scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Price_per_Bedroom_scaled&#39;</span>] <span class="op">=</span> price_per_bedroom_scaler.fit_transform(data[[<span class="st">&#39;Price_per_Bedroom&#39;</span>]])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="178" id="TIhgmQ-BywUl">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the pipeline</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>pipeline <span class="op">=</span> Pipeline(steps<span class="op">=</span>[(<span class="st">&#39;preprocessor&#39;</span>, preprocessor)])</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit and transform the data</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>processed_data <span class="op">=</span> pipeline.fit_transform(data)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="179"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="QdlyR0dWCOhs" data-outputId="37b5454b-d2e8-4058-ccc1-09fbf6f84ce5">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(processed_data)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>  (0, 38)	1.0
+  (0, 51)	1.0
+  (0, 54)	-0.16017731116224812
+  (0, 55)	-0.163906466698614
+  (0, 56)	-0.38807976839474945
+  (0, 57)	4.474679497031687
+  (0, 58)	0.6063950758917838
+  (0, 59)	-0.14767470751371356
+  (1, 38)	1.0
+  (1, 51)	1.0
+  (1, 54)	-0.14047426570462895
+  (1, 55)	-0.163906466698614
+  (1, 56)	-1.117000482354913
+  (1, 57)	4.474679497031687
+  (1, 58)	0.6063950758917838
+  (1, 59)	-0.12346062076554885
+  (2, 38)	1.0
+  (2, 51)	1.0
+  (2, 54)	-0.1405713153837326
+  (2, 55)	-0.7417308803469508
+  (2, 56)	-0.38807976839474945
+  (2, 57)	4.474679497031687
+  (2, 58)	0.6063950758917838
+  (2, 59)	0.3582562208853009
+  (3, 38)	1.0
+  :	:
+  (35764, 59)	3.9654310970989193
+  (35765, 9)	1.0
+  (35765, 50)	1.0
+  (35765, 54)	-0.5130852351755273
+  (35765, 55)	-0.7417308803469508
+  (35765, 56)	-0.38807976839474945
+  (35765, 57)	-0.1826215165812445
+  (35765, 58)	-0.2382179035222297
+  (35765, 59)	-0.32844607507240414
+  (35766, 9)	1.0
+  (35766, 50)	1.0
+  (35766, 54)	0.0064736529551337125
+  (35766, 55)	-0.163906466698614
+  (35766, 56)	-1.117000482354913
+  (35766, 57)	-0.1826215165812445
+  (35766, 58)	-0.2382179035222297
+  (35766, 59)	0.05713124040349667
+  (35767, 9)	1.0
+  (35767, 50)	1.0
+  (35767, 54)	-0.3434933716913681
+  (35767, 55)	-0.7417308803469508
+  (35767, 56)	-1.117000482354913
+  (35767, 57)	-0.1826215165812445
+  (35767, 58)	-0.2382179035222297
+  (35767, 59)	-0.015815819281133157
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="208" id="aZ3ciu2_CquS">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data into training and testing sets</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(processed_data, data[<span class="st">&#39;Price&#39;</span>], test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="214" id="PLCmmYm1kEeZ">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a new dataset by taking one fourth of the original dataset</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>new_data_indices <span class="op">=</span> data.sample(frac<span class="op">=</span><span class="fl">0.25</span>, random_state<span class="op">=</span><span class="dv">42</span>).index</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert csr_matrix objects back to pandas DataFrames</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>X_train_df <span class="op">=</span> pd.DataFrame.sparse.from_spmatrix(X_train)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>X_test_df <span class="op">=</span> pd.DataFrame.sparse.from_spmatrix(X_test)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>X_train_new <span class="op">=</span> X_train[<span class="op">~</span>X_train_df.index.isin(new_data_indices)]</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>X_test_new <span class="op">=</span> X_test[<span class="op">~</span>X_test_df.index.isin(new_data_indices)]</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>y_test_new <span class="op">=</span> y_test[<span class="op">~</span>y_test.index.isin(new_data_indices)]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="184" id="QzdSeHVcCuXu">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Linear Regression</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>linear_reg <span class="op">=</span> LinearRegression()</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>linear_reg.fit(X_train, y_train)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>linear_reg_pred <span class="op">=</span> linear_reg.predict(X_test)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>linear_reg_rmse <span class="op">=</span> mean_squared_error(y_test, linear_reg_pred, squared<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="185" id="RU5g2EysCvw7">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Lasso Regression</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>lasso_reg <span class="op">=</span> Lasso()</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>lasso_reg.fit(X_train, y_train)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>lasso_reg_pred <span class="op">=</span> lasso_reg.predict(X_test)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>lasso_reg_rmse <span class="op">=</span> mean_squared_error(y_test, lasso_reg_pred, squared<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="186" id="0M_LIppMC1t_">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ridge Regression</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>ridge_reg <span class="op">=</span> Ridge()</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>ridge_reg.fit(X_train, y_train)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>ridge_reg_pred <span class="op">=</span> ridge_reg.predict(X_test)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>ridge_reg_rmse <span class="op">=</span> mean_squared_error(y_test, ridge_reg_pred, squared<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="187" id="yKn1BhwvC44n">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Elastic Net</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>elastic_net <span class="op">=</span> ElasticNet()</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>elastic_net.fit(X_train, y_train)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>elastic_net_pred <span class="op">=</span> elastic_net.predict(X_test)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>elastic_net_rmse <span class="op">=</span> mean_squared_error(y_test, elastic_net_pred, squared<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="188"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="qUbDNl-gC759" data-outputId="403356f6-344c-40ae-9e07-9195653e87af">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Artificial Neural Network (ANN)</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>ann <span class="op">=</span> MLPRegressor(hidden_layer_sizes<span class="op">=</span>(<span class="dv">100</span>,), activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, solver<span class="op">=</span><span class="st">&#39;adam&#39;</span>, max_iter<span class="op">=</span><span class="dv">1000</span>)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>ann.fit(X_train, y_train)</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>ann_pred <span class="op">=</span> ann.predict(X_test)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>ann_rmse <span class="op">=</span> mean_squared_error(y_test, ann_pred, squared<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/sklearn/neural_network/_multilayer_perceptron.py:686: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn&#39;t converged yet.
+  warnings.warn(
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="189"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="89EYJl6GGoSq" data-outputId="20d45a71-ccee-468c-ec96-7b3ad59fdce4">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Compare the performance of different models</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Linear Regression RMSE:&quot;</span>, linear_reg_rmse)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Lasso Regression RMSE:&quot;</span>, lasso_reg_rmse)</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Ridge Regression RMSE:&quot;</span>, ridge_reg_rmse)</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Elastic Net RMSE:&quot;</span>, elastic_net_rmse)</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;ANN RMSE:&quot;</span>, ann_rmse)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Linear Regression RMSE: 3.7314275959325163
+Lasso Regression RMSE: 162.614061233634
+Ridge Regression RMSE: 659.81531770493
+Elastic Net RMSE: 284429.0421309632
+ANN RMSE: 217284.5131503161
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="190" id="8VNlqsrrHZtR">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate models using appropriate metrics</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> evaluate_models(y_true, y_pred, model_name):</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>    mse <span class="op">=</span> mean_squared_error(y_true, y_pred)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    rmse <span class="op">=</span> np.sqrt(mse)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    r2 <span class="op">=</span> r2_score(y_true, y_pred)</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> {<span class="st">&#39;Model&#39;</span>: model_name, <span class="st">&#39;MSE&#39;</span>: mse, <span class="st">&#39;RMSE&#39;</span>: rmse, <span class="st">&#39;R-squared&#39;</span>: r2}</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="191" id="2lnxXtimHeCh">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate evaluation metrics for each model</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>linear_reg_metrics <span class="op">=</span> evaluate_models(y_test, linear_reg_pred, <span class="st">&quot;Linear Regression&quot;</span>)</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>lasso_reg_metrics <span class="op">=</span> evaluate_models(y_test, lasso_reg_pred, <span class="st">&quot;Lasso Regression&quot;</span>)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>ridge_reg_metrics <span class="op">=</span> evaluate_models(y_test, ridge_reg_pred, <span class="st">&quot;Ridge Regression&quot;</span>)</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>elastic_net_metrics <span class="op">=</span> evaluate_models(y_test, elastic_net_pred, <span class="st">&quot;Elastic Net&quot;</span>)</span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>ann_metrics <span class="op">=</span> evaluate_models(y_test, ann_pred, <span class="st">&quot;ANN&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="192" id="TSjCjivpHjLC">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine metrics into a list</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>all_metrics <span class="op">=</span> [linear_reg_metrics, lasso_reg_metrics, ridge_reg_metrics, elastic_net_metrics, ann_metrics]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="193"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="8fB1Ki7zHnu1" data-outputId="a66b26ee-5cb0-453a-aee2-eeb67091a3e4">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create visualizations to compare the performance of the different models</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>metrics_df <span class="op">=</span> pd.DataFrame(all_metrics)</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>plt.bar(metrics_df[<span class="st">&#39;Model&#39;</span>], metrics_df[<span class="st">&#39;MSE&#39;</span>], color<span class="op">=</span><span class="st">&#39;skyblue&#39;</span>)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Mean Squared Error (MSE) of Different Models&#39;</span>)</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Models&#39;</span>)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;MSE&#39;</span>)</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a>plt.bar(metrics_df[<span class="st">&#39;Model&#39;</span>], metrics_df[<span class="st">&#39;R-squared&#39;</span>], color<span class="op">=</span><span class="st">&#39;salmon&#39;</span>)</span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;R-squared of Different Models&#39;</span>)</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Models&#39;</span>)</span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;R-squared&#39;</span>)</span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_9e40fec9bbfa4550b7b7f7722211d011/0e13cc3a7b860ca64f948f9ec6f6228cb641634b.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_9e40fec9bbfa4550b7b7f7722211d011/1272a23202de4fa8c4670e79649c42fa69425e2a.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="194"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:647}"
+id="Ct8KMKNpV73F" data-outputId="c2c4e54c-832a-4ec6-ace0-3282b6a209ca">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming &#39;all_metrics&#39; is a dictionary containing your models and their MSE values</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>metrics_df <span class="op">=</span> pd.DataFrame(all_metrics)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>plt.bar(metrics_df[<span class="st">&#39;Model&#39;</span>], np.log(metrics_df[<span class="st">&#39;MSE&#39;</span>]), color<span class="op">=</span><span class="st">&#39;skyblue&#39;</span>)  <span class="co"># Apply np.log to &#39;metrics_df[&#39;MSE&#39;]&#39;</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Log of Mean Squared Error (MSE) of Different Models&#39;</span>)</span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Models&#39;</span>)</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Log of MSE&#39;</span>)  <span class="co"># Change label to &#39;Log of MSE&#39;</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">45</span>)</span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_9e40fec9bbfa4550b7b7f7722211d011/5967a8297d09a03741a81012835d2e60b0141a26.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="195"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="B6KbCCZxayON" data-outputId="1146cb50-f476-48dc-e1ea-8fc24862c8a5">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate and print the accuracy of predictions for each model</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy of Predictions:&quot;</span>)</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Linear Regression R-squared:&quot;</span>, r2_score(y_test, linear_reg_pred))</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Lasso Regression R-squared:&quot;</span>, r2_score(y_test, lasso_reg_pred))</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Ridge Regression R-squared:&quot;</span>, r2_score(y_test, ridge_reg_pred))</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Elastic Net R-squared:&quot;</span>, r2_score(y_test, elastic_net_pred))</span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;ANN R-squared:&quot;</span>, r2_score(y_test, ann_pred))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy of Predictions:
+Linear Regression R-squared: 0.9999999999865142
+Lasso Regression R-squared: 0.9999999743881695
+Ridge Regression R-squared: 0.9999995783333879
+Elastic Net R-squared: 0.9216439914557761
+ANN R-squared: 0.9542720245397788
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="196"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6HS1KUc3Hv5-" data-outputId="564f0f10-6326-41a2-db12-b5f13755753e">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Model Selection: Choose the best-performing model based on the evaluation metrics</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>best_model <span class="op">=</span> metrics_df.loc[metrics_df[<span class="st">&#39;MSE&#39;</span>].idxmin()]</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Best-performing model based on MSE:&quot;</span>)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(best_model)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Best-performing model based on MSE:
+Model        Linear Regression
+MSE                  13.923552
+RMSE                  3.731428
+R-squared                  1.0
+Name: 0, dtype: object
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="197"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="7cZxuJUkH2ZV" data-outputId="dacb4bd7-1643-42ab-ebfa-c4fd45891e88">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Another way to select the best-performing model is based on R-squared</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>best_model_r2 <span class="op">=</span> metrics_df.loc[metrics_df[<span class="st">&#39;R-squared&#39;</span>].idxmax()]</span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Best-performing model based on R-squared:&quot;</span>)</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(best_model_r2)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+Best-performing model based on R-squared:
+Model        Linear Regression
+MSE                  13.923552
+RMSE                  3.731428
+R-squared                  1.0
+Name: 0, dtype: object
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="198" id="491cc290Xvok">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the best-performing model as a pickle file</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>best_model <span class="op">=</span> metrics_df.loc[metrics_df[<span class="st">&#39;MSE&#39;</span>].idxmin()][<span class="st">&#39;Model&#39;</span>]</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> best_model <span class="op">==</span> <span class="st">&quot;Linear Regression&quot;</span>:</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>    pickle.dump(linear_reg, <span class="bu">open</span>(<span class="st">&quot;best_model.pkl&quot;</span>, <span class="st">&quot;wb&quot;</span>))</span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> best_model <span class="op">==</span> <span class="st">&quot;Lasso Regression&quot;</span>:</span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>    pickle.dump(lasso_reg, <span class="bu">open</span>(<span class="st">&quot;best_model.pkl&quot;</span>, <span class="st">&quot;wb&quot;</span>))</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> best_model <span class="op">==</span> <span class="st">&quot;Ridge Regression&quot;</span>:</span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>    pickle.dump(ridge_reg, <span class="bu">open</span>(<span class="st">&quot;best_model.pkl&quot;</span>, <span class="st">&quot;wb&quot;</span>))</span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> best_model <span class="op">==</span> <span class="st">&quot;Elastic Net&quot;</span>:</span>
+<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a>    pickle.dump(elastic_net, <span class="bu">open</span>(<span class="st">&quot;best_model.pkl&quot;</span>, <span class="st">&quot;wb&quot;</span>))</span>
+<span id="cb44-11"><a href="#cb44-11" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> best_model <span class="op">==</span> <span class="st">&quot;ANN&quot;</span>:</span>
+<span id="cb44-12"><a href="#cb44-12" aria-hidden="true" tabindex="-1"></a>    pickle.dump(ann, <span class="bu">open</span>(<span class="st">&quot;best_model.pkl&quot;</span>, <span class="st">&quot;wb&quot;</span>))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="199" id="QcQTOIKcX3V0">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the best-performing model from the pickle file</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>best_model_loaded <span class="op">=</span> pickle.load(<span class="bu">open</span>(<span class="st">&quot;best_model.pkl&quot;</span>, <span class="st">&quot;rb&quot;</span>))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="200"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="FSHKkvEtYhEn" data-outputId="08f9b369-a7d2-40d3-b001-1b0f654d2928">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(best_model_loaded)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>LinearRegression()
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="201"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="h5b1Hq5FbthN" data-outputId="9b193c3c-09e1-4d58-bce3-66a374c8303d">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>best_model_loaded.predict(X_test)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="201">
+<pre><code>array([2199000.86680643,  929002.40220167, 2299797.48956382, ...,
+        284004.19354129, 1698997.16056965, 1698998.64662285])</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="202" id="VZJyrKNnpI1C">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use the selected model to make predictions on the new dataset</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>predictions_new <span class="op">=</span> best_model_loaded.predict(X_test_new)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="221"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="6nTLCucMy3ig" data-outputId="50b2e723-e345-4c9c-8508-6224fa4da11e">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter indices that are present in X_test_indices but not in new_data_indices</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>test_indices_to_keep <span class="op">=</span> [index <span class="cf">for</span> index <span class="kw">in</span> X_test_indices <span class="cf">if</span> index <span class="kw">not</span> <span class="kw">in</span> new_data_indices]</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if test_indices_to_keep is not empty</span></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> test_indices_to_keep:</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Filter y_test and predictions_new based on the filtered indices</span></span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>    y_test_new <span class="op">=</span> y_test.iloc[test_indices_to_keep]</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    predictions_new <span class="op">=</span> predictions_new[:<span class="bu">len</span>(y_test_new)]</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Evaluate the model&#39;s performance on the unknown data using appropriate metrics</span></span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>    mse_new <span class="op">=</span> mean_squared_error(y_test_new, predictions_new)</span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>    rmse_new <span class="op">=</span> np.sqrt(mse_new)</span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a>    r2_new <span class="op">=</span> r2_score(y_test_new, predictions_new)</span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Performance on Unknown Data:&quot;</span>)</span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;MSE:&quot;</span>, mse_new)</span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;RMSE:&quot;</span>, rmse_new)</span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;R-squared:&quot;</span>, r2_new)</span>
+<span id="cb51-19"><a href="#cb51-19" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb51-20"><a href="#cb51-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;No test indices to evaluate. Ensure that the test dataset and new dataset are different.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Performance on Unknown Data:
+MSE: 14.604629788549083
+RMSE: 3.8216004224080105
+R-squared: 0.999999999985637
+</code></pre>
+</div>
+</div>
+</body>
+</html>
